@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+header {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+ 
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+ 
+.nav-btn {
+    background: transparent;
+    border: transparent;
+    color: #fff;
+    padding-left: 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+ 
+.side-btn {
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+ 
+.side-btn:nth-child(1) {
+    background-color: grey;
+}
+ 
+.side-btn:nth-child(2) {
+    background-color: rgb(255, 222, 89);
+}
+ 
+.middle-btn {
+    color: #fff;
+    background-color: rgb(255, 222, 89);
+    border: transparent;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: black;
+    padding: 20px;
+}
+ 
+.modal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.cards {
+    border: transparent;
+    padding: 10px;
+    width: 30%;
+}
+ 
+.card-logo {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.modal-overlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+    
+}
+ 
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    border:  solid white;
+    box-sizing: border-box; 
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #000;
+}
+
+.close-button {
+    margin-top: 20px; 
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background-color: #d32f2f; 
+}
+
+.modal-overlay.blur {
+    backdrop-filter: blur(5px); 
+}
+
+
+
+
+  
